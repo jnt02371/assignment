@@ -1,3 +1,12 @@
+function testjs()
+{
+	var firsttext = getUrlVars()["name"];
+	var editedname = firsttext.replace("~", "%20");
+	var editedname2 = editedname.replace("~", "%20");
+	var editedname3 = editedname2.replace("~", "%20");
+	var editedname4 = editedname3.replace("~", "%20");
+	window.location = 'https://jnt02371.github.io/TT1/Christmas.html?name='+editedname4;
+}
 function getUrlVars() {
     var vars = {};
     var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function(m,key,value) {
