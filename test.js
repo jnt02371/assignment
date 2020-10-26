@@ -4,11 +4,11 @@ function sendchris(){
 }
 function sendraya(){
 	inputName = document.getElementById("name").value;
-	window.location = 'http://wa.me/?text='+inputName+' wishing you a Hari Raya for the year 2020 %0A%0Ahttps://jnt02371.github.io/TT1/Christmas.html';
+	window.location = 'http://wa.me/?text='+inputName+' wishing you a Hari Raya for the year 2020 %0A%0Ahttps://jnt02371.github.io/TT1/HariRaya.html';
 }
 function senddeepavali(){
 	inputName = document.getElementById("name").value;
-	window.location = 'http://wa.me/?text='+inputName+' wishing you a happy Deepavali for the year 2020 %0A%0Ahttps://jnt02371.github.io/TT1/Christmas.html';
+	window.location = 'http://wa.me/?text='+inputName+' wishing you a happy Deepavali for the year 2020 %0A%0Ahttps://jnt02371.github.io/TT1/deepavali1.html';
 }
 function sendcny(){
 	inputName = document.getElementById("name").value;
