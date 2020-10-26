@@ -19,7 +19,7 @@ var mytext = getUrlVars()["text"];
 	var outputVal2 = outputVal.replace(" ", "~");
 	var outputVal3 = outputVal2.replace(" ", "~");
 	var outputVal4 = outputVal3.replace(" ", "~");
-window.location = 'http://wa.me/?text='+inputVal+' wishing you for the Year 2020 %0A%0AOpen this https://jnt02371.github.io/TT1/Christmas.html?name='+outputVal4;
+window.location = 'http://wa.me/?text='+inputVal+' Wishing you for the Year 2020 %0A%0AOpen this https://jnt02371.github.io/TT1/Christmas.html;
 }
 
 function requestFullScreen(element) {
